@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BasicTest" time="82.063" tests="14" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1257"/>
+    <property name="java.class.path" value="C:\Users\anett\Downloads\SWT2021-HW06-TestCode-v1.0\TestCode\target\test-classes;C:\Users\anett\Downloads\SWT2021-HW06-TestCode-v1.0\TestCode\target\classes;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.1\selenium-java-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.1\selenium-api-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.1\selenium-chrome-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.1\selenium-edge-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.1\selenium-firefox-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.1\selenium-ie-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.1\selenium-opera-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.1\selenium-remote-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.1\selenium-safari-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.1\selenium-support-3.7.1.jar;C:\Users\anett\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\anett\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\anett\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\anett\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\anett\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\anett\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\anett\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\anett\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\anett\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\anett\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\anett\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\anett\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\anett\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\anett\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="user.country.format" value="EE"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\anett\.jdks\corretto-11.0.16.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\anett\AppData\Local\Temp\surefire14653118088776354715\surefirebooter-20240409021508877_3.jar C:\Users\anett\AppData\Local\Temp\surefire14653118088776354715 2024-04-09T02-15-08_559-jvmRun1 surefire-20240409021508877_1tmp surefire_0-20240409021508877_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\anett\Downloads\SWT2021-HW06-TestCode-v1.0\TestCode\target\test-classes;C:\Users\anett\Downloads\SWT2021-HW06-TestCode-v1.0\TestCode\target\classes;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.1\selenium-java-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.1\selenium-api-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.1\selenium-chrome-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.1\selenium-edge-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.1\selenium-firefox-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.1\selenium-ie-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.1\selenium-opera-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.1\selenium-remote-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.1\selenium-safari-driver-3.7.1.jar;C:\Users\anett\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.1\selenium-support-3.7.1.jar;C:\Users\anett\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\anett\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\anett\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\anett\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\anett\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\anett\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\anett\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\anett\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\anett\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\anett\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\anett\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\anett\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\anett\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\anett\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\anett"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.home" value="C:\Users\anett\.jdks\corretto-11.0.16.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\anett\Downloads\SWT2021-HW06-TestCode-v1.0\TestCode"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\anett\AppData\Local\Temp\surefire14653118088776354715\surefirebooter-20240409021508877_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16.1+9-LTS"/>
+    <property name="user.name" value="anett"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1257"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.16.9.1"/>
+    <property name="localRepository" value="C:\Users\anett\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\anett\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.3.6"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="user.dir" value="C:\Users\anett\Downloads\SWT2021-HW06-TestCode-v1.0\TestCode"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="et"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\anett\.jdks\corretto-11.0.16.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\SQL Anywhere 17\bin64;C:\Program Files\SQL Anywhere 17\bin32;C:\Program Files (x86)\IDEMIA\AWP\Dlls;C:\Program Files\IDEMIA\AWP\Dlls;C:\Program Files\Git\cmd;C:\Gradle\gradle-7.5.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C;C;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\PuTTY\;C;C;C:\Program Files\Docker\Docker\resources\bin;C:\Users\anett\AppData\Local\Microsoft\WindowsApps;C:\Users\anett\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\anett\AppData\Roaming\npm;C:\msys64\mingw64\bin;C:\msys64\usr\bin;C:\msys64\ucrt64\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.16.1+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="decreaseQuantity" classname="BasicTest" time="14.164">
+    <system-err><![CDATA[1712618110085	geckodriver	INFO	Listening on 127.0.0.1:15403
+1712618110260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofileKTncmw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618110526	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618110626	Marionette	INFO	Listening on port 52166
+1712618110818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:15:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+1712618122962	Marionette	INFO	Stopped listening on port 52166
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="purchaseCartReceiptTotal" classname="BasicTest" time="4.143">
+    <failure message="expected:&lt;€[52].00&gt; but was:&lt;€[104].00&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<€[52].00> but was:<€[104].00>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:269)
+	at BasicTest.purchaseCartReceiptTotal(BasicTest.java:207)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[1712618123739	geckodriver	INFO	Listening on 127.0.0.1:19046
+1712618123760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofileFYq6PM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618124043	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618124189	Marionette	INFO	Listening on port 52213
+1712618124391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:15:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.error: ({})
+1712618127024	Marionette	INFO	Stopped listening on port 52213
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="purchaseCart" classname="BasicTest" time="3.644">
+    <system-err><![CDATA[1712618127889	geckodriver	INFO	Listening on 127.0.0.1:5176
+1712618127922	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofileUM3xjL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618128186	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618128298	Marionette	INFO	Listening on port 52256
+1712618128480	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:15:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.error: ({})
+1712618130658	Marionette	INFO	Stopped listening on port 52256
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="checkoutNoDetailsFilled" classname="BasicTest" time="3.672">
+    <system-err><![CDATA[1712618131533	geckodriver	INFO	Listening on 127.0.0.1:9673
+1712618131574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofilecFwu9q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618131823	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618131921	Marionette	INFO	Listening on port 52298
+1712618132111	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:15:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.error: ({})
+1712618134124	Marionette	INFO	Stopped listening on port 52298
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="filterOtherCategory" classname="BasicTest" time="3.649">
+    <failure message="expected:&lt;Category: [Other]&gt; but was:&lt;Category: [Sunglasses]&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<Category: [Other]> but was:<Category: [Sunglasses]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:269)
+	at BasicTest.filterOtherCategory(BasicTest.java:171)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[1712618135208	geckodriver	INFO	Listening on 127.0.0.1:33414
+1712618135229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofileA6I25F"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618135492	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618135594	Marionette	INFO	Listening on port 52333
+1712618135771	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:15:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1712618137571	Marionette	INFO	Stopped listening on port 52333
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="searchByName" classname="BasicTest" time="3.581">
+    <system-err><![CDATA[1712618138856	geckodriver	INFO	Listening on 127.0.0.1:31607
+1712618138894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofileUmq5GQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618139141	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618139255	Marionette	INFO	Listening on port 52365
+1712618139449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:15:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1712618141072	Marionette	INFO	Stopped listening on port 52365
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="titleExistsTest" classname="BasicTest" time="3.79">
+    <system-err><![CDATA[1712618142436	geckodriver	INFO	Listening on 127.0.0.1:23629
+1712618142484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofileAXJjCp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618142730	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618142823	Marionette	INFO	Listening on port 52396
+1712618143058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:15:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1712618144444	Marionette	INFO	Stopped listening on port 52396
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="filterSunglassesCategory" classname="BasicTest" time="3.696">
+    <system-err><![CDATA[1712618146227	geckodriver	INFO	Listening on 127.0.0.1:5527
+1712618146257	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofile5x6Kh9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618146516	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618146637	Marionette	INFO	Listening on port 52426
+1712618146818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:15:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1712618148626	Marionette	INFO	Stopped listening on port 52426
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="filterBooksCategory" classname="BasicTest" time="3.565">
+    <system-err><![CDATA[1712618149926	geckodriver	INFO	Listening on 127.0.0.1:16412
+1712618149956	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofileIsmu5X"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618150199	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618150302	Marionette	INFO	Listening on port 52459
+1712618150525	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:15:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1712618152190	Marionette	INFO	Stopped listening on port 52459
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="increaseQuantity" classname="BasicTest" time="3.7">
+    <system-err><![CDATA[1712618153487	geckodriver	INFO	Listening on 127.0.0.1:47221
+1712618153504	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofiletlYh35"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618153762	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618153853	Marionette	INFO	Listening on port 52488
+1712618154041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:15:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+1712618156079	Marionette	INFO	Stopped listening on port 52488
+JavaScript warning: http://localhost:3000/assets/application-f21be49bafc83d4555cc43f3075f6aa399154b48c152c67aa6d94796717bc6ee.js, line 8061: Script terminated by timeout at:
+jQuery.fx.tick@http://localhost:3000/assets/application-f21be49bafc83d4555cc43f3075f6aa399154b48c152c67aa6d94796717bc6ee.js:8061:12
+
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="deleteCart" classname="BasicTest" time="13.566">
+    <system-err><![CDATA[1712618157193	geckodriver	INFO	Listening on 127.0.0.1:14501
+1712618157233	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofile4ZrSrh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618157490	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618157591	Marionette	INFO	Listening on port 52522
+1712618157774	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:15:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.error: ({})
+1712618169987	Marionette	INFO	Stopped listening on port 52522
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="deleteItem" classname="BasicTest" time="13.239">
+    <system-err><![CDATA[1712618170760	geckodriver	INFO	Listening on 127.0.0.1:22330
+1712618170799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofileqNWCVm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618171074	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618171173	Marionette	INFO	Listening on port 52571
+1712618171360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:16:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.error: ({})
+1712618183242	Marionette	INFO	Stopped listening on port 52571
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="searchByNameNonExistentProduct" classname="BasicTest" time="3.97">
+    <system-err><![CDATA[1712618183999	geckodriver	INFO	Listening on 127.0.0.1:9265
+1712618184038	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofileIx4Prr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618184307	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618184404	Marionette	INFO	Listening on port 52617
+1712618184589	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:16:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1712618186143	Marionette	INFO	Stopped listening on port 52617
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="addItemToCart" classname="BasicTest" time="3.631">
+    <system-err><![CDATA[1712618187969	geckodriver	INFO	Listening on 127.0.0.1:21331
+1712618187992	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\anett\\AppData\\Local\\Temp\\rust_mozprofilelHEEqZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712618188244	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712618188340	Marionette	INFO	Listening on port 52651
+1712618188522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+apr 09, 2024 2:16:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+1712618190290	Marionette	INFO	Stopped listening on port 52651
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+</testsuite>
