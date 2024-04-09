@@ -235,18 +235,71 @@ public class BasicTest extends TestHelper {
             assertEquals(expectedErrors[i], errors.get(i).getText());
         }
     }
-/*
     @Test
-    public void checkoutNoNameFilled() {}
+    public void checkoutNoNameFilled() {
+        //adds product to cart
+        WebElement B4_SG_Main = driver.findElement(By.id("B45593 Sunglasses_entry"));
+        B4_SG_Main.findElement(By.xpath("/html/body/div[4]/div[2]/div[3]/div[2]/form/input[1]")).click();
+        //goes to checkout, fills out address, email and pay type and tries to place order
+        driver.findElement(By.xpath("/html/body/div[4]/div[1]/div/form[2]/input")).click();
+
+        driver.findElement(By.id("order_address")).sendKeys("address");
+        driver.findElement(By.id("order_email")).sendKeys("email");
+        driver.findElement(By.id("order_pay_type")).sendKeys("Check");
+        driver.findElement(By.xpath("/html/body/div[4]/div[2]/div/form/div[5]/input")).click();
+        //asserts that no name notice shows up.
+        String error = driver.findElement(By.id("error_explanation")).getText();
+        assertEquals("Name can't be blank", error);
+    }
+    @Test
+    public void checkoutNoAddressFilled() {
+        //adds product to cart
+        WebElement B4_SG_Main = driver.findElement(By.id("B45593 Sunglasses_entry"));
+        B4_SG_Main.findElement(By.xpath("/html/body/div[4]/div[2]/div[3]/div[2]/form/input[1]")).click();
+        //goes to checkout, fills out name, email and pay type and tries to place order
+        driver.findElement(By.xpath("/html/body/div[4]/div[1]/div/form[2]/input")).click();
+
+        driver.findElement(By.id("order_name")).sendKeys("name");
+        driver.findElement(By.id("order_email")).sendKeys("email");
+        driver.findElement(By.id("order_pay_type")).sendKeys("Check");
+        driver.findElement(By.xpath("/html/body/div[4]/div[2]/div/form/div[5]/input")).click();
+        //asserts that no address notice shows up
+        String error = driver.findElement(By.id("error_explanation")).getText();
+        assertEquals("Address can't be blank", error);
+    }
 
     @Test
-    public void checkoutNoAddressFilled() {}
+    public void checkoutNoEmailFilled() {
+        //adds product to cart
+        WebElement B4_SG_Main = driver.findElement(By.id("B45593 Sunglasses_entry"));
+        B4_SG_Main.findElement(By.xpath("/html/body/div[4]/div[2]/div[3]/div[2]/form/input[1]")).click();
+        //goes to checkout, fills out name, address and pay type and tries to place order
+        driver.findElement(By.xpath("/html/body/div[4]/div[1]/div/form[2]/input")).click();
+
+        driver.findElement(By.id("order_name")).sendKeys("name");
+        driver.findElement(By.id("order_address")).sendKeys("address");
+        driver.findElement(By.id("order_pay_type")).sendKeys("Check");
+        driver.findElement(By.xpath("/html/body/div[4]/div[2]/div/form/div[5]/input")).click();
+        //asserts that no email notice shows up
+        String error = driver.findElement(By.id("error_explanation")).getText();
+        assertEquals("Email can't be blank", error);
+    }
 
     @Test
-    public void checkoutNoEmailFilled() {}
+    public void checkoutNoPayTypeFilled() {
+        //adds product to cart
+        WebElement B4_SG_Main = driver.findElement(By.id("B45593 Sunglasses_entry"));
+        B4_SG_Main.findElement(By.xpath("/html/body/div[4]/div[2]/div[3]/div[2]/form/input[1]")).click();
+        //goes to checkout, fills out name, address and email and tries to place order
+        driver.findElement(By.xpath("/html/body/div[4]/div[1]/div/form[2]/input")).click();
 
-    @Test
-    public void checkoutNoPayTypeFilled() {}
+        driver.findElement(By.id("order_name")).sendKeys("name");
+        driver.findElement(By.id("order_address")).sendKeys("address");
+        driver.findElement(By.id("order_email")).sendKeys("email");
+        driver.findElement(By.xpath("/html/body/div[4]/div[2]/div/form/div[5]/input")).click();
+        //asserts that no pay type notice shows up
+        String error = driver.findElement(By.id("error_explanation")).getText();
+        assertEquals("Pay type is not included in the list", error);
+    }
 
- */
 }
